@@ -1,0 +1,29 @@
+
+
+#gameArea {
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    background-image: url(backimage1.jpeg);
+}
+
+#scoreArea {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resetScore, #resetSpeed {
+    margin: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resetScore:hover, #resetSpeed:hover {
+    background-color: #239948;
+}
+
